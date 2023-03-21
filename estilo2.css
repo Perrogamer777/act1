@@ -1,0 +1,69 @@
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 221, 131);
+}
+
+.center{
+
+    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.centerTitulo{
+
+    font-size: 120%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .centerSub{
+
+    font-size: 120%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .centerLista{
+
+    font-size: 100%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  ul {
+    list-style: none;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+  }
+
+  .liMenu{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 60px;
+    font-family:sans-serif;
+    font-weight: bold;
+  }
+
+  img{
+
+    float: center
+    ;
+  }
