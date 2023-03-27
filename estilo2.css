@@ -86,8 +86,10 @@ body{
   div.fotos {
     margin: 110px;
     border: 10px;
-    float: left ;
+    float: left;
     width: 200px;
+  
+  
   }
 
   
@@ -106,7 +108,38 @@ body{
     font-size: 130%;
     display: grid;
     place-items: center;
+    font-weight: bold;
+    
+  }
 
+  a:hover {
+    color: white;
+  }
+
+  div.fotosNoso{
+
+    margin: 110px;
+    border: 10px;
+    float: left;
+    width: 200px;
+  }
+
+  div.textoNoso{
+    padding: 30px;
+    text-align: right;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  a:link {
+    background-color: rgb(255, 212, 149);
+    color: black;
+    padding: 14px 25px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
 
 
