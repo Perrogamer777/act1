@@ -87,10 +87,27 @@ body{
   }
 
   div.fotos {
-    margin: 20px;
+
+    margin: 115px;
+    border: 10px;
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    position: relative;
+    left: 400px;
+    text-align: center;
+    display: grid;
+  }
+
+  div.fotosPerrosGatos {
+
+    margin: 110px;
+    border: 10px;
+    float: left;
+    width: 200px;
+    position: relative;
+    left: 210px;
+    text-align: center;
+    display: grid;
   }
 
   
@@ -110,7 +127,7 @@ body{
     display: grid;
     place-items: center;
     font-weight: bold;
-    
+
   }
 
   a:hover {
@@ -123,6 +140,10 @@ body{
     border: 10px;
     float: left;
     width: 200px;
+    position: relative;
+    left: 500px;
+    text-align: center;
+    display: grid;
   }
 
   div.textoNoso{
